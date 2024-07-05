@@ -1,0 +1,7 @@
+name: ColdCoins
+version: '${project.version}'
+main: bgprotobg.net.coldcoins.ColdCoins
+commands:
+  mobcoins:
+    description: Manage your mobcoins.
+    aliases: [coins]

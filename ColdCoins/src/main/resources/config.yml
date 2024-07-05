@@ -1,0 +1,37 @@
+# General configuration settings for the Mobcoins plugin
+# Configuration for Mobcoins plugin
+
+# GUI sizes
+shop-gui-size: 27 # Size of the shop GUI (must be a multiple of 9)
+
+# Messages
+messages:
+  usage: '&cUsage: /mobcoins <pay|give|balance|take|shop|reload>'
+  invalid-amount: '&cInvalid amount entered.'
+  player-not-found: '&cPlayer not found.'
+  only-players: '&cOnly players can use this command.'
+  no-permission: '&cYou do not have permission to perform this command.'
+  coins-paid: '&aYou have paid %amount% mobcoins to %player%.'
+  coins-received: '&aYou have received %amount% mobcoins from %player%.'
+  coins-given: '&aYou have given %amount% mobcoins to %player%.'
+  coins-taken: '&aYou have taken %amount% mobcoins from %player%.'
+  balance: '&aYou have %balance% mobcoins.'
+  balance-other: '&a%player% has %balance% mobcoins.'
+  config-reloaded: '&aConfiguration reloaded.'
+  coins-purchased: '&aYou have purchased %item% for %cost% mobcoins.'
+  not-enough-coins: '&cYou do not have enough mobcoins.'
+
+
+mobs:
+  ZOMBIE:
+    min-coins: 1
+    max-coins: 3
+    drop-chance: 60.0 # 60% chance to drop mobcoins
+  SKELETON:
+    min-coins: 2
+    max-coins: 4
+    drop-chance: 70.0 # 70% chance to drop mobcoins
+  CREEPER:
+    min-coins: 1
+    max-coins: 5
+    drop-chance: 20.0 # 20% chance to drop mobcoins

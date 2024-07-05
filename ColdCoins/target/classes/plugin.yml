@@ -1,0 +1,7 @@
+name: ColdCoins
+version: '1.0'
+main: bgprotobg.net.coldcoins.ColdCoins
+commands:
+  mobcoins:
+    description: Manage your mobcoins.
+    aliases: [coins]
